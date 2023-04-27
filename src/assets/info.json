@@ -1,0 +1,115 @@
+{
+  "albumes": [
+    {
+      "titulo": "Amor Amarillo",
+      "año": 1993,
+      "fondo": "https://i.pinimg.com/originals/49/6a/70/496a70fae2602d076106228185ad0618.png",
+      "canciones": [
+        {
+          "nombre": "Amor Amarillo",
+          "frase": "Explosiones en tus ojos, agujeros en la tierra\nY un verde profundo en el mar. \nHay algo en el aire, un detalle infinito \nY quiero que dure para siempre \n(para siempre...).",
+          "audio": "amorAmarillo"
+        },
+        {
+          "nombre": "Avenida Alcorta",
+          "frase": "Donde estemos juntos será nuestro hogar. \nNo sé... no sé dónde estás,\n y me vuelvo extraño.",
+          "audio": "avAlcorta"
+        },
+        {
+          "nombre": "Pulsar",
+          "frase": "Tu aliento es mi respiración. \nCon mi salvaje corazón, \nlos vicios no son del cuerpo. \nY llega justo a tiempo...",
+          "audio": "pulsar"
+        }
+      ]
+    },
+    {
+      "titulo": "Bocanada",
+      "año": 1999,
+      "fondo": "https://th.bing.com/th/id/R.786d6146a416055e5be192b431d5ee0c?rik=7Frwy7%2fQXc2%2fjg&riu=http%3a%2f%2fwww.delabahia.com.ar%2fwp-content%2fuploads%2f2019%2f06%2f30467591.jpg&ehk=HrGfGasXweNBZr2TusFWB3HTYFte86o9ZLS00AvALyc%3d&risl=&pid=ImgRaw&r=0",
+      "canciones": [
+        {
+          "nombre": "Beautiful",
+          "frase": "Estoy rodeado de bellos instrumentos \nBebiendo la pereza de soñar. \nY es tan beautiful, como lo pensé...\nI'm beautiful.",
+          "audio": "beautiful"
+            
+        },
+        {
+          "nombre": "Paseo inmoral",
+          "frase": "Un paseo inmoral, noches de longevidad. \nEstoy detrás del corazón, \nmoviéndolo lentamente. \nSigo detrás del corazón, \nmoviéndolo lentamente.",
+          "audio": "paseoInmoral"
+        },
+        {
+          "nombre": "Puente",
+          "frase": "Ya estás aquí, y el paso que dimos...\nEs causa y es efecto. \nCruza el amor, yo cruzaré los dedos. \n¡Y gracias por venir!",
+          "audio": "puente"
+        }
+      ]
+    },
+    {
+      "titulo": "Siempre es Hoy",
+      "año": 2002,
+      "fondo": "https://cdn-d15c.kxcdn.com/fotos/discos/000/002/654/original/foto.jpg",
+      "canciones": [
+        {
+          "nombre": "Vivo",
+          "frase": "Me pondré el uniforme de piel humana, \nno esperaba tanto resplandor. \nEl fin de amar sentirse más...\nVivo.",
+          "audio": "vivo"
+        },
+        {
+          "nombre": "Sulky",
+          "frase": "Tener la cura para todo, \nla cura para todo mal...\nSin ganas de volver.",
+          "audio": "sulky"
+        },
+        {
+          "nombre": "Nací para esto",
+          "frase": "Ey! pensándolo bien...\nsé que siempre supe el desenlace. \nMe pasé la vida imaginándote, \nno es momento para ser cobarde.",
+          "audio": "naciParaEsto"
+        }
+      ]
+    },
+    {
+      "titulo": "Ahí Vamos",
+      "año": 2006,
+      "fondo": "https://th.bing.com/th/id/R.a55f716e0c8bf7afd2c3d1aa859cb65a?rik=9MXft7KIeHLRww&riu=http%3a%2f%2f1.bp.blogspot.com%2f-Ife4ctDKDz0%2fUzS8jF1z-1I%2fAAAAAAAAIBQ%2fGwBVWGLKwx8%2fs1600%2fAhi%2bVamos.jpg&ehk=FEgm%2b%2bKXRY0KLvdqBLq3JvnXgpq9er3KJg%2fZ5hOZEsM%3d&risl=&pid=ImgRaw&r=0",
+      "canciones": [
+        {
+          "nombre": "Lago en el Cielo",
+          "frase": "Sos el paisaje más soñado \nY sacudiste las más sólidas tristezas \nY respondiste cada vez que te he llamado...",
+          "audio": "lagoEnElCielo"
+        },
+        {
+          "nombre": "Adiós",
+          "frase": "Separarse de la especie por algo superior, \nNo es soberbia es amor...\nNo es soberbia, es amor.",
+          "audio": "adios"
+        },
+        {
+          "nombre": "Otra Piel",
+          "frase": "No voy a endurecer, letras que dan placer. \nMe contengo de amarte más, hasta volverte a ver. \nSi el lenguaje es otra piel...toquémonos más.",
+          "audio": "otraPiel"
+        }
+      ]
+    },
+    {
+      "titulo": "Fuerza Natural",
+      "año": 2009,
+      "fondo": "https://i.pinimg.com/originals/bd/5b/41/bd5b4176c97acb43d4d8b7955c36206a.jpg",
+      "canciones": [
+        {
+          "nombre": "Deja vú",
+          "frase": "Todo es mentira, ya verás. \nLa poesía es la única verdad...\nSacar belleza de este caos es virtud ¿o no?",
+          "audio": "dejaVu"
+        },
+        {
+          "nombre": "Tracción a Sangre",
+          "frase": "Siento que pasan los días \nY sigo adelante tracción a sangre, \ntras una melodía. \nY creo, que te hice tan mía...\nQue por un instante te olvidé.",
+          "audio": "traccionASangre"
+        },
+        {
+          "nombre": "Sal",
+          "frase": "Si esperamos juntos mareas altas bajarán. \nY cuando seamos uno...\ntal vez nos vengan a buscar.",
+          "audio": "sal"
+        }
+      ]
+    }
+  ]
+}
