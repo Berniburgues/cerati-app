@@ -56,6 +56,7 @@ function App() {
         >
           Cerati cantó:
         </h1>
+        <div className="sharethis-sticky-share-buttons"></div>
         {cancionSeleccionada && (
           <article
             className={`rounded-2xl text-center  mb-5 justify-between items-center relative p-3 mx-5 h-72 w-full xl:h-60 xl:w-[425px] backdrop-filter backdrop-blur-[3px] backdrop-contrast-[3] bg-gradient-to-b ${colorAlbum(
@@ -81,7 +82,7 @@ function App() {
         {albumSeleccionado && (
           <div className="flex flex-col justify-center items-center">
             <button
-              className="bg-gradient-to-r from black to-transparent backdrop-filter backdrop-contrast-[5] rounded-full w-20 h-20 flex items-center justify-center border-2 border-black"
+              className="bg-gradient-to-r from black to-transparent backdrop-filter backdrop-contrast-[2] rounded-full w-16 h-16 flex items-center justify-center border-2 border-black"
               style={{
                 boxShadow:
                   "0px 4px 6px rgba(0, 0, 0, 3), 0px 1px 3px rgba(0, 0, 0, 2)",
@@ -89,14 +90,13 @@ function App() {
               onClick={cambiarCancion}
             >
               <i
-                className="bx bx-sync text-white text-[75px] hover:animate-spin"
+                className="bx bx-loader-circle text-white text-[60px] transition duration-300 transform hover:scale-110 hover:text-blue-300"
                 style={{
                   textShadow: "2px 2px 4px rgba(0, 0, 0, 5)",
                   WebkitTextStroke: "1px black",
                 }}
               ></i>
             </button>
-
             <Album
               titulo={albumSeleccionado.titulo}
               año={albumSeleccionado.año}
