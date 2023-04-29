@@ -9,25 +9,6 @@ function App() {
   const [albumSeleccionado, setAlbumSeleccionado] = useState(null);
   const [cancionSeleccionada, setCancionSeleccionada] = useState(null);
 
-  const titulo = `Cerati cantó - ${albumSeleccionado?.titulo}`;
-  const descripcion = `${cancionSeleccionada?.nombre} - ${cancionSeleccionada?.frase}`;
-  const imagen = albumSeleccionado?.imagen;
-
-  const ogTitle = document.createElement("meta");
-  ogTitle.setAttribute("property", "og:title");
-  ogTitle.setAttribute("content", titulo);
-  document.head.appendChild(ogTitle);
-
-  const ogDescripcion = document.createElement("meta");
-  ogDescripcion.setAttribute("property", "og:description");
-  ogDescripcion.setAttribute("content", descripcion);
-  document.head.appendChild(ogDescripcion);
-
-  const ogImagen = document.createElement("meta");
-  ogImagen.setAttribute("property", "og:image");
-  ogImagen.setAttribute("content", imagen);
-  document.head.appendChild(ogImagen);
-
   function cambiarCancion() {
     // Seleccionar un álbum al azar diferente al álbum actual
     let albumAleatorio;
@@ -75,6 +56,7 @@ function App() {
         >
           Cerati cantó:
         </h1>
+        <div className="sharethis-sticky-share-buttons"></div>
         {cancionSeleccionada && (
           <article
             className={`rounded-2xl text-center  mb-5 justify-between items-center relative p-3 mx-5 h-72 w-full xl:h-60 xl:w-[425px] backdrop-filter backdrop-blur-[3px] backdrop-contrast-[3] bg-gradient-to-b ${colorAlbum(
@@ -120,13 +102,6 @@ function App() {
               año={albumSeleccionado.año}
               cancion={cancionSeleccionada?.nombre}
             />
-            <div
-              className="sharethis-sticky-share-buttons"
-              data-url={window.location.href}
-              data-title={titulo}
-              data-description={descripcion}
-              data-image={imagen}
-            ></div>
           </div>
         )}
       </section>
